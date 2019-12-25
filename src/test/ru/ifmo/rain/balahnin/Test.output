@@ -1,0 +1,32 @@
+package t.T;
+
+import java.util.ArrayList;
+import java.util.List;
+import star.*;
+
+public class Simple {
+    int[] a = new int[1]; 
+    FieldWithoutInitialization f; 
+    InitializatedField b = 1 + 2; 
+    java.love.dot.ClassAndArrays[][][] c = new int[2][3]; 
+    StringLiteral str = "first string" + "secondString"; 
+
+    public int functionWithoutParams() {
+        int a = 2; 
+        a = 3;
+        c = a[1];
+    }
+    FieldBetweenMethods f; 
+
+    void functionWithParams(int a, java.MyClass b) {
+        int a = new int[1]; 
+        while (a != b && c + d < 10) {
+            if (a + b - c * d / 5 != "test") {
+                doSomething();
+                Var array = new ar[1][2]; 
+            } else {
+                doElse();
+            }
+        }
+    }
+}
