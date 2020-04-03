@@ -72,6 +72,7 @@ value
     |   literal
     |   newWithCreation
     |   functionOrConstructorCall
+    |   LBRACE argumentList? RBRACE
     |
     ;
 
@@ -102,7 +103,7 @@ argumentList
     ;
 
 argumentElement
-    :   Identifier
+    :   value
     ;
 
 arrayCreation
@@ -206,6 +207,8 @@ logicOperator
 returnStatement
     :   RETURN expression SEMI
     ;
+
+
 
 
 // Lexer

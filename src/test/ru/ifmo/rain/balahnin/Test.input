@@ -1,11 +1,14 @@
 package ru.ifmo.rain.balahnin;
-
 import java.util.ArrayList;
-import java.util.List;
-import star.*;
-
+import java.util.List; import star.*;
 public class Simple {
     int[] a = new int[1];
+
+
+    ArrayInitialization[] array = {1    ,   "sdfadf"    ,
+                 functionCall()};
+    EmptyArray[] emptyArray = {
+    };
     FieldWithoutInitialization f;
 
 
@@ -26,11 +29,16 @@ public class Simple {
     void functionWithParams(int a, jaba.MyClass b) {
             int a = new int[1];
             while (a != b && c + d < 10) {
-            if (a + b - c *d/5 != "test") {
-                doSomething();
+            if (a +
+
+
+
+
+            b-c*d/5 != "test") {
+                    doSomething();
                 Var array = new ar[1][2];
-            } else {
-                doElse();
+                            } else {
+                    doElse();
             }
             }
 
