@@ -1,4 +1,4 @@
-#Java file code styler
+# Java file code styler
 Take java code file (with restrictions) and reformat it by base java code style
 #### maintained
 * functions
